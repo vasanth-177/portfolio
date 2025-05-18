@@ -35,21 +35,21 @@ jobs:
         
       - name: Verify Environment Variables
         env:
-          VITE_EMAILJS_SERVICE_ID: ${{ secrets.EMAILJS_SERVICE_ID }}
-          VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.EMAILJS_TEMPLATE_ID }}
-          VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.EMAILJS_PUBLIC_KEY }}
+          VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
+          VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
+          VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}
         run: |
           echo "Checking environment variables..."
-          if [ -n "$VITE_EMAILJS_SERVICE_ID" ]; then echo "✓ EMAILJS_SERVICE_ID is set"; else echo "✗ EMAILJS_SERVICE_ID is missing"; exit 1; fi
-          if [ -n "$VITE_EMAILJS_TEMPLATE_ID" ]; then echo "✓ EMAILJS_TEMPLATE_ID is set"; else echo "✗ EMAILJS_TEMPLATE_ID is missing"; exit 1; fi
-          if [ -n "$VITE_EMAILJS_PUBLIC_KEY" ]; then echo "✓ EMAILJS_PUBLIC_KEY is set"; else echo "✗ EMAILJS_PUBLIC_KEY is missing"; exit 1; fi
+          if [ -n "$VITE_EMAILJS_SERVICE_ID" ]; then echo "✓ VITE_EMAILJS_SERVICE_ID is set"; else echo "✗ EMAILJS_SERVICE_ID is missing"; exit 1; fi
+          if [ -n "$VITE_EMAILJS_TEMPLATE_ID" ]; then echo "✓ VITE_EMAILJS_TEMPLATE_ID is set"; else echo "✗ EMAILJS_TEMPLATE_ID is missing"; exit 1; fi
+          if [ -n "$VITE_EMAILJS_PUBLIC_KEY" ]; then echo "✓ VITE_EMAILJS_PUBLIC_KEY is set"; else echo "✗ EMAILJS_PUBLIC_KEY is missing"; exit 1; fi
           echo "All environment variables are properly set!"
 
       - name: Build
         env:
-          VITE_EMAILJS_SERVICE_ID: ${{ secrets.EMAILJS_SERVICE_ID }}
-          VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.EMAILJS_TEMPLATE_ID }}
-          VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.EMAILJS_PUBLIC_KEY }}
+          VITE_EMAILJS_SERVICE_ID: ${{ secrets.VITE_EMAILJS_SERVICE_ID }}
+          VITE_EMAILJS_TEMPLATE_ID: ${{ secrets.VITE_EMAILJS_TEMPLATE_ID }}
+          VITE_EMAILJS_PUBLIC_KEY: ${{ secrets.VITE_EMAILJS_PUBLIC_KEY }}
         run: npm run build
         
       - name: Setup Pages
