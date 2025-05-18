@@ -25,7 +25,7 @@ export default function About() {
             <h3 className="section-subtitle">Technical Focus</h3>
             <div className="flex flex-wrap gap-2 mt-4">
               {["Backend Optimization", "API Development", "Microservices", "CI/CD", "System Architecture", 
-               "Scalability", "Automation", "Full-Stack Development"].map((item, index) => (
+               "Scalability", "Automation", "Full-Stack Development", "Design Patterns", "DevOps", "System Intelligence"].map((item, index) => (
                 <span 
                   key={index} 
                   className="bg-primary/10 text-primary px-4 py-1.5 rounded-full text-sm font-medium"
