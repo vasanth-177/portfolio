@@ -43,7 +43,7 @@ export default function Hero() {
               <Mail className="h-6 w-6" />
             </a>
             <a 
-              href="https://github.com" 
+              href="https://github.com/vasanth-177" 
               target="_blank" 
               rel="noopener noreferrer"
               aria-label="GitHub"

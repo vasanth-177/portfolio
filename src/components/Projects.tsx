@@ -22,9 +22,7 @@ const projects: Project[] = [
       "Increased call handling capacity by 3x",
       "Reduced manual calling efforts by 90%",
       "Real-time post-call reports generation"
-    ],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    ]
   },
   {
     title: "Non-Fruit Supply Chain Platform",
@@ -34,8 +32,7 @@ const projects: Project[] = [
       "0% downtime launch with no post-production bugs",
       "Automated data validation and anomaly detection",
       "75% increase in supply chain efficiency"
-    ],
-    github: "https://github.com",
+    ]
   },
   {
     title: "Mobile Configuration Platform",
@@ -45,9 +42,7 @@ const projects: Project[] = [
       "Eliminated 100% of seasonal modification development",
       "Structural design pattern implementation",
       "Configuration-driven architecture"
-    ],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    ]
   },
   {
     title: "Quality Reporting System",
@@ -57,8 +52,7 @@ const projects: Project[] = [
       "Saved 1,500+ hours of manual effort annually",
       "Enabled 50+ monthly submissions from remote areas",
       "Automated PDF generation and reporting"
-    ],
-    github: "https://github.com",
+    ]
   },
   {
     title: "Integrity Monitoring System",
@@ -68,9 +62,7 @@ const projects: Project[] = [
       "75% increase in supply chain efficiency",
       "Automated anomaly detection",
       "Real-time data validation"
-    ],
-    github: "https://github.com",
-    demo: "https://demo.com"
+    ]
   },
   {
     title: "CI/CD Pipeline Integration",
@@ -80,8 +72,7 @@ const projects: Project[] = [
       "Increased test coverage from 32% to 85% in 2 days",
       "Automated testing and deployment",
       "Integrated coverage reporting"
-    ],
-    github: "https://github.com",
+    ]
   },
 ];
 

@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import emailjs from '@emailjs/browser';
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -14,12 +15,23 @@ export default function Contact() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const { toast } = useToast();
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
+    try {
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: name,
+          from_email: email,
+          message: message,
+          to_email: 'vasanthmit17@gmail.com',
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
+
       toast({
         title: "Message sent!",
         description: "Thanks for reaching out. I'll get back to you soon.",
@@ -27,8 +39,15 @@ export default function Contact() {
       setName("");
       setEmail("");
       setMessage("");
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
       setIsSubmitting(false);
-    }, 1000);
+    }
   };
 
   return (
@@ -136,12 +155,12 @@ export default function Contact() {
                 <div>
                   <p className="text-sm text-muted-foreground">GitHub</p>
                   <a 
-                    href="https://github.com"
+                    href="https://github.com/vasanth-177"
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="font-medium hover:text-primary"
                   >
-                    github.com
+                    github.com/vasanth-177
                   </a>
                 </div>
               </div>
