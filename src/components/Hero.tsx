@@ -27,7 +27,7 @@ export default function Hero() {
           </div>
           <div className="mt-8 flex justify-center gap-6 animate-in">
             <a 
-              href="https://linkedin.com/in/vasanth-m-a53362203" 
+              href="https://www.linkedin.com/in/vasanth-m-a33362203/" 
               target="_blank" 
               rel="noopener noreferrer"
               aria-label="LinkedIn"
@@ -36,7 +36,7 @@ export default function Hero() {
               <Linkedin className="h-6 w-6" />
             </a>
             <a 
-              href="mailto:vasanthm117@gmail.com" 
+              href="mailto:vasanthmit17@gmail.com" 
               aria-label="Email"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
