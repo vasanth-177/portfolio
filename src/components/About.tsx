@@ -7,7 +7,7 @@ export default function About() {
         <div className="max-w-4xl mx-auto">
           <p className="text-lg mb-6">
             I'm a passionate Software Developer based in Chennai, with expertise in backend optimization, 
-            full-stack development, and system architecture. With over 2 years of experience at Veepox, 
+            full-stack development, and system architecture. With over 2 years of experience at Vegrow, 
             I specialize in building scalable, high-performance applications that focus on efficiency, 
             scalability, and automation.
           </p>

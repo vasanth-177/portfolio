@@ -11,7 +11,7 @@ interface ExperienceItem {
 const experiences: ExperienceItem[] = [
   {
     title: "Software Development Engineer II",
-    company: "Veepox",
+    company: "Vegrow",
     period: "07/2024 - Present",
     achievements: [
       "Engineered an AI-powered Calling Automation and Post-Call Intelligence system, increasing call handling from 10-12 manual calls to 30-35 AI-driven calls per person.",
@@ -23,7 +23,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     title: "Software Development Engineer I",
-    company: "Veepox",
+    company: "Vegrow",
     period: "06/2023 - 07/2024",
     achievements: [
       "Led and delivered the company-wide Non-Fruit Supply Chain Project, ensuring a 0% downtime launch with 0 post-production bugs.",
@@ -35,7 +35,7 @@ const experiences: ExperienceItem[] = [
   },
   {
     title: "Software Development Engineer Intern",
-    company: "Veepox",
+    company: "Vegrow",
     period: "01/2023 - 05/2023",
     achievements: [
       "Created highly dynamic, responsive PDFs, ensuring 100% compatibility across various platforms and sheet sizes.",

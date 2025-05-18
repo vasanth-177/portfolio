@@ -17,7 +17,7 @@ const projects: Project[] = [
   {
     title: "AI-powered Calling Automation",
     description: "An intelligent system that automated call handling and extracted valuable insights from conversations.",
-    technologies: ["AI/ML", "LangChain", "Docker", "Kubernetes"],
+    technologies: ["FastAPI", "LangChain", "Docker", "Kubernetes", "MongoDB", "Terraform", "Kafka"],
     achievements: [
       "Increased call handling capacity by 3x",
       "Reduced manual calling efforts by 90%",
@@ -27,7 +27,7 @@ const projects: Project[] = [
   {
     title: "Non-Fruit Supply Chain Platform",
     description: "An end-to-end supply chain management platform for non-fruit products with zero downtime deployment.",
-    technologies: ["Ruby on Rails", "React.js", "MongoDB", "Kafka"],
+    technologies: ["Ruby on Rails", "React.js", "MySQL"],
     achievements: [
       "0% downtime launch with no post-production bugs",
       "Automated data validation and anomaly detection",
@@ -35,9 +35,9 @@ const projects: Project[] = [
     ]
   },
   {
-    title: "Mobile Configuration Platform",
+    title: "Fully Configurable Customer Profiling Mobile App",
     description: "A highly scalable mobile application with configuration-driven architecture eliminating seasonal development needs.",
-    technologies: ["React Native", "Node.js", "MySQL", "Docker"],
+    technologies: ["Ruby on Rails", "React.js", "tailwindcss", "Behavioral design pattern", "Structural design pattern"],
     achievements: [
       "Eliminated 100% of seasonal modification development",
       "Structural design pattern implementation",
@@ -47,7 +47,7 @@ const projects: Project[] = [
   {
     title: "Quality Reporting System",
     description: "Digitized quality reporting process with offline mode support for low-connectivity areas.",
-    technologies: ["Golang", "React.js", "Docker", "PDF Generation"],
+    technologies: ["Ruby on Rails", "React.js", "Kafka", "MongoDB", "MySQL"],
     achievements: [
       "Saved 1,500+ hours of manual effort annually",
       "Enabled 50+ monthly submissions from remote areas",
@@ -57,7 +57,7 @@ const projects: Project[] = [
   {
     title: "Integrity Monitoring System",
     description: "A graph-based system to automate data validation and anomaly detection for supply chain.",
-    technologies: ["Python", "Neo4j", "Docker", "Kubernetes"],
+    technologies: ["Ruby on Rails", "MySQL"],
     achievements: [
       "75% increase in supply chain efficiency",
       "Automated anomaly detection",
